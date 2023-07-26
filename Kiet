@@ -5,3 +5,4 @@ BlackFrame.Parent = BlackGui
 BlackFrame.BackgroundColor3 = Color3.new(0,0,0)
 BlackFrame.Size = UDim2.new(1.5,1.5,1.5,1.5)
 BlackGui.Parent = game.StarterGui
+print("dit con me may")
