@@ -1,8 +1,5 @@
--- Tạo GUI blackscreen
 local blackScreen = Instance.new("Frame")
 blackScreen.Name = "BlackScreen"
 blackScreen.BackgroundColor3 = Color3.new(0, 0, 0) -- Màu đen
 blackScreen.Size = UDim2.new(1, 0, 1, 0) -- Kích thước full màn hình
-
--- Thêm blackscreen vào StarterGui
 game:GetService("StarterGui"):AddChild(blackScreen)
