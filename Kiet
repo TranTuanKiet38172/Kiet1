@@ -1,5 +1,7 @@
 local blackScreen = Instance.new("Frame")
-blackScreen.Name = "BlackScreen"
+blackScreen.Size = UDim2.new(1, 0, 1, 0)
+blackScreen.Position = UDim2.new(0, 0, 0, 0)
 blackScreen.BackgroundColor3 = Color3.new(0, 0, 0) -- Màu đen
-blackScreen.Size = UDim2.new(1, 0, 1, 0) -- Kích thước full màn hình
-game:GetService("StarterGui"):AddChild(blackScreen)
+blackScreen.Parent = game:GetService("StarterGui")
+
+print("Giao diện người dùng BlackScreen đã được tạo và thêm vào StarterGui!")
